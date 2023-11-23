@@ -44,7 +44,20 @@
     "last_opened_file_path": "D:/Installed Software/Github Desktop/microservices-springboot/z_microservices"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.QuizServiceApplication">
+    <configuration name="QuestionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learnspring.question.QuestionServiceApplication" />
+      <module name="question-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnspring.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuizServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learnspring.quiz.QuizServiceApplication" />
       <module name="quiz-service" />
@@ -61,6 +74,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.QuizServiceApplication" />
+        <item itemvalue="Application.QuestionServiceApplication" />
       </list>
     </recent_temporary>
   </component>
