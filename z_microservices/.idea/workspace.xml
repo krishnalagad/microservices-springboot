@@ -49,7 +49,7 @@
       <recent name="com.learnspring.quiz.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceRegistryApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learnspring.gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -104,10 +104,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
+        <item itemvalue="Application.QuizServiceApplication" />
         <item itemvalue="Application.ServiceRegistryApplication" />
         <item itemvalue="Application.QuestionServiceApplication" />
-        <item itemvalue="Application.QuizServiceApplication" />
-        <item itemvalue="Application.ApiGatewayApplication" />
       </list>
     </recent_temporary>
   </component>

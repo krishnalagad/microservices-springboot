@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/quiz")
+//@RequestMapping("/quiz")
 public class QuizController {
 
     private final QuizService quizService;
