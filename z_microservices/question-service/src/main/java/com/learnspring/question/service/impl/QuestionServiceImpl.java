@@ -31,4 +31,9 @@ public class QuestionServiceImpl implements QuestionService {
         return this.questionRepository.findById(id).orElseThrow(() -> new RuntimeException(
                 String.format("Question not found with id %d", id)));
     }
+
+    @Override
+    public List<Question> getQuestionByQuizId(Long id) {
+        return this.questionRepository.getByQuizId(id);
+    }
 }
