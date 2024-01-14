@@ -49,7 +49,7 @@
       <recent name="com.learnspring.quiz.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ServiceRegistryApplication">
+  <component name="RunManager" selected="Application.QuestionServiceApplication">
     <configuration name="QuestionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.learnspring.question.QuestionServiceApplication" />
       <module name="question-service" />
@@ -91,9 +91,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServiceRegistryApplication" />
-        <item itemvalue="Application.QuizServiceApplication" />
         <item itemvalue="Application.QuestionServiceApplication" />
+        <item itemvalue="Application.QuizServiceApplication" />
+        <item itemvalue="Application.ServiceRegistryApplication" />
       </list>
     </recent_temporary>
   </component>
