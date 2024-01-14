@@ -9,4 +9,6 @@ public interface QuestionService {
     Question add(Question question);
     List<Question> getQuestions();
     Question get(Long id);
+
+    List<Question> getQuestionByQuizId(Long id);
 }
