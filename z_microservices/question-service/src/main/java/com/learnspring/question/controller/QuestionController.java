@@ -33,4 +33,10 @@ public class QuestionController {
         Question question = this.questionService.get(id);
         return ResponseEntity.ok(question);
     }
+
+    @GetMapping("/quiz/{id}") 
+    public ResponseEntity<List<Question>> getByQuiz(@PathVariable("id") Long id) {
+        List<Question> questionByQuizId = this.questionService.getQuestionByQuizId(id);
+        return ResponseEntity.ok(questionByQuizId);
+    }
 }
